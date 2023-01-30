@@ -1,0 +1,16 @@
+.navbar {
+    background-color: rgb(207, 213, 255);
+}
+
+.offcanvas {
+    background-color: rgb(207, 213, 255);
+    font-size: 20px;
+    text-indent: 1em;
+}
+
+.offcanvas-body #item:hover {
+    background-color: rgb(45, 45, 115);
+    color: white;
+}
+
+/* COLORS ARE NOT FINAL */
