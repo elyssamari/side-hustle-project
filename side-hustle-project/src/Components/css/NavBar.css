@@ -1,11 +1,14 @@
-.navbar {
-    background-color: rgb(207, 213, 255);
+.offcanvas {
+    font-size: 20px;
+    text-indent: 2em;
 }
 
-.offcanvas {
-    background-color: rgb(207, 213, 255);
-    font-size: 20px;
-    text-indent: 1em;
+.offcanvas-header {
+    padding-left: 0px;
+}
+
+.offcanvas-body {
+    padding: 0px;
 }
 
 .offcanvas-body #item:hover {
