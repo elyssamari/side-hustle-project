@@ -4,7 +4,9 @@ const HomeLayout = () => {
     return (
         <>
             <div>
-                <p>This is a test. Home About</p>
+                <p>This is a test. Home </p>
+                
+
             </div>
         </>
     )

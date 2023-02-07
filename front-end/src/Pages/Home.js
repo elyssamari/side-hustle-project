@@ -1,4 +1,5 @@
 import React from 'react';
+import HomeLayout from '../Components/js/HomeComponents/HomeLayout';
 import SubNav from "../Components/js/HomeComponents/SubNav";
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <SubNav />
       <div className="home">
         <h1> This is Home Page </h1>
+        <HomeLayout />
       </div>
     </>
   );
