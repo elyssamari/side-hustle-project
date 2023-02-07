@@ -22,7 +22,7 @@ const NavBar = () => {
         <>
             {[false].map((expand) => (
             <Navbar key={expand} sticky="top" expand={expand}
-                style={{backgroundColor: navColor }}>
+                style={{backgroundColor: navColor }} >
                 <Container fluid>
                     <Navbar.Brand href="/">mhypals</Navbar.Brand> {/* need to decide if the brand will redirect to home page */}
                     <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`}>

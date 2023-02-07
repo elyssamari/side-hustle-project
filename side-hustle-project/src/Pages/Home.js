@@ -1,14 +1,13 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
+import SubNav from "../Components/js/HomeComponents/SubNav";
 
 const Home = () => {
   return (
     <>
+    <SubNav />
       <div className="home">
         <h1> This is Home Page </h1>
       </div>
-
-      <Outlet /> {/*This is so nested routes/pages can be displayed*/}
     </>
   );
 };

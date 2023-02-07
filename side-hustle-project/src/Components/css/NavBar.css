@@ -12,7 +12,7 @@
 }
 
 .offcanvas-body #item:hover {
-    background-color: rgb(45, 45, 115);
+    background-color: rgb(45, 45, 115); /*change this color?*/
     color: white;
 }
 
