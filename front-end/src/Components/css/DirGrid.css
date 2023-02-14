@@ -1,0 +1,43 @@
+.directory {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 1200px;
+}
+    
+.mariet {
+    grid-area: 1 / 1 / 3 / 3;
+}
+
+.mariet .icon {
+    background-color: #c7ddf8;
+}
+
+.hano { 
+    grid-area: 3 / 1 / 5 / 3;
+}
+
+.hano .icon {
+    background-color: #ebdbff;
+}
+
+.yaron {
+    grid-area: 5 / 1 / 7 / 3;
+}
+
+.yaron .icon {
+    background-color: #b5eed7;
+}
+
+#half {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+#item {
+    width: 100%;
+}

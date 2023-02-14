@@ -5,8 +5,6 @@ const HomeLayout = () => {
         <>
             <div>
                 <p>This is a test. Home </p>
-                
-
             </div>
         </>
     )
