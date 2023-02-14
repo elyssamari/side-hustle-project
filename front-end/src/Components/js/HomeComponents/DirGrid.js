@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import "../../css/DirGrid.css";
 
 const DirGrid = () => {
@@ -8,19 +7,19 @@ const DirGrid = () => {
             <div class="mariet" id="half">
                 <div class="icon" id="item">one</div>
                 <div class="link" id="item">
-                    <Link to="/mariet">Click Here!</Link>
+                    <a href="/mariet">Click Here!</a>
                 </div>
             </div>
             <div class="hano" id="half">
                 <div class="link" id="item">
-                    <Link to="/hano">Click Here!</Link>
+                    <a href="/hano">Click Here!</a>
                 </div>
                 <div class="icon" id="item">two</div>
             </div>
             <div class="yaron" id="half">
                 <div class="icon" id="item">one</div>
                 <div class="link" id="item">
-                    <Link to="/yaron">Click Here!</Link>
+                    <a href="/yaron">Click Here!</a>
                 </div>
             </div>
         </div>
