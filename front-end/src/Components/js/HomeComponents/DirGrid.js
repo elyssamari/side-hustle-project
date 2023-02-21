@@ -11,13 +11,13 @@ const DirGrid = () => {
                 </div>
                 <div class="link" id="dir-item">
                     <p>Test paragraph</p>
-                    <a href="/mariet"><Button id="mbtn">Click Here!</Button></a>
+                    <a href="/mariet"><Button id="link-btn">Click Here!</Button></a>
                 </div>
             </div>
             <div class="hano" id="half">
                 <div class="link" id="dir-item">
                     <p>Test paragraph</p>
-                    <a href="/hano"><Button id="hbtn">Click Here!</Button></a>
+                    <a href="/hano"><Button id="link-btn">Click Here!</Button></a>
                 </div>
                 <div class="icon" id="dir-item">
                     <img id="pfp" src="mhyhano.png" alt="hano-pfp" />
@@ -29,7 +29,7 @@ const DirGrid = () => {
                 </div>
                 <div class="link" id="dir-item">
                     <p>Test paragraph</p>
-                    <a href="/yaron"><Button id="bbtn">Click Here!</Button></a>
+                    <a href="/yaron"><Button id="link-btn">Click Here!</Button></a>
                 </div>
             </div>
         </div>
