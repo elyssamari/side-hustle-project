@@ -2,7 +2,7 @@
 import React from 'react';
 import HomeLayout from '../Components/js/HomeComponents/HomeLayout';
 import SubNav from '../Components/js/SubNav';
-// import {Container} from 'react-bootstrap';
+import DirGrid from '../Components/js/HomeComponents/DirGrid';
 
 const Home = () => {
   return (
@@ -11,6 +11,7 @@ const Home = () => {
       <SubNav/>
     </div>
     <HomeLayout />
+    <DirGrid />
     </>
   );
 };

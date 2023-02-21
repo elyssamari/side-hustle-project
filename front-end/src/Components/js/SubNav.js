@@ -3,7 +3,6 @@ import React from 'react';
 import { Row, Col, Container, Navbar, Button } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 
-
 const SubNav = () => {
 
     const navigate = useNavigate();
