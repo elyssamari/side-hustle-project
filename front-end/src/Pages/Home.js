@@ -12,11 +12,6 @@ const Home = () => {
         <img src="banner.jpg" alt="homebanner"></img> {/* height="674" width="1360"  */}
       </Container>
       <HomeLayout />
-      <SubNav />
-      <div className="home">
-        <h1> This is Home Page </h1>
-        <HomeLayout />
-      </div>
       <DirGrid />
     </>
   );

@@ -5,6 +5,7 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     height: 1200px;
+    text-align: center;
 }
     
 .mariet {
@@ -34,10 +35,13 @@
 #half {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    text-align: center;
 }
 
 #item {
+    display: flex;
+    flex-direction: column;
     width: 100%;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
 }
