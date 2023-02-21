@@ -1,4 +1,4 @@
-// import "../css/NavBar.css";
+import "../css/NavBar.css";
 import React, { useState, useEffect } from "react";
 import { Nav, Navbar, Offcanvas, Container, OffcanvasBody } from 'react-bootstrap';
 
@@ -56,6 +56,7 @@ const NavBar = () => {
             </Navbar>
             ))}
         </>
+        
     )
 }
 

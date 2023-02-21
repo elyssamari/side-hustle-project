@@ -1,18 +1,16 @@
+// import "./Home.css"; 
 import React from 'react';
 import HomeLayout from '../Components/js/HomeComponents/HomeLayout';
-import SubNav from "../Components/js/HomeComponents/SubNav";
-import {Container} from 'react-bootstrap';
-
+import SubNav from '../Components/js/SubNav';
+// import {Container} from 'react-bootstrap';
 
 const Home = () => {
   return (
     <>
-    <SubNav />
-    <Container className="text-center justify-content-md-center" >
-      <img src="banner.jpg" alt="homebanner"></img> {/* height="674" width="1360"  */}
-    </Container>
+    <div className="text-center justify-content-md-center home-image" >
+      <SubNav/>
+    </div>
     <HomeLayout />
-
     </>
   );
 };
