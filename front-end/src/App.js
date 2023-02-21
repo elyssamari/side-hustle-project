@@ -11,8 +11,8 @@ import Process from './Pages/Process';
 function App() {
   return (
     <div className="App">
-    <NavBar />
     <BrowserRouter>
+    <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/mariet" element={<Mariet />} />
