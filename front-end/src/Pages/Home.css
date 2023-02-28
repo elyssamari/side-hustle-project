@@ -1,11 +1,4 @@
-.home-image{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 0;
-    /* max-height: ; */
-    background-size: cover;
-    background-image: url("../../public/bearcrew3.png");
+.banner-image{
+  width: 100%;
+  height: auto;
 }
