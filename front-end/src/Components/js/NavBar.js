@@ -32,7 +32,7 @@ const NavBar = () => {
                             <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>mhypals</Offcanvas.Title>
                         </Offcanvas.Header>
                         <OffcanvasBody>
-                            <Nav className="ms-auto my-2 my-lg-0">
+                            <Nav className="ms-auto my-2 my-lg-0 nav-responsive">
                                 <Nav.Link id="item" href="/">
                                     Home
                                 </Nav.Link>
