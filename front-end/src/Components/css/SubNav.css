@@ -2,8 +2,13 @@
     top: 56px;
 }
 
-@media screen and (max-width: 600px){
+.responsive{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 200px){
     .subnav{
-        width: 100%;
+        width: 100%
     }
 }

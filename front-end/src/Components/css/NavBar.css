@@ -19,4 +19,10 @@
 .navbar-logo{
     font-family: "Lucida Console", "Courier New", monospace; /*temporary text style*/
   }
+  
+  @media screen and (max-width: 600px){
+    .nav-responsive{
+        width: 100%
+    }
+}
 /* COLORS ARE NOT FINAL */
