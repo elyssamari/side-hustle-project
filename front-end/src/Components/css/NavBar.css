@@ -12,17 +12,23 @@
 }
 
 .offcanvas-body #item:hover {
-    background-color: rgb(45, 45, 115); /*change this color?*/
-    color: white;
+    background-color: white;
+    /*change this color?*/
+    color: #333451;
 }
 
-.navbar-logo{
-    font-family: "Lucida Console", "Courier New", monospace; /*temporary text style*/
-  }
-  
-  @media screen and (max-width: 600px){
-    .nav-responsive{
+.navbar-logo {
+    font-family: "Lucida Console", "Courier New", monospace;
+    /*temporary text style*/
+}
+
+@media screen and (max-width: 600px) {
+    .nav-responsive {
         width: 100%
     }
+}
+
+#item.nav-link{
+    font-size: 20px;
 }
 /* COLORS ARE NOT FINAL */
