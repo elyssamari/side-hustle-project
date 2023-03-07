@@ -4,23 +4,25 @@
     grid-template-rows: repeat(6, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    height: 1500px;
+    height: 2500px;
     text-align: center;
 }
-    
+
 .mariet {
     grid-area: 1 / 1 / 3 / 3;
 }
 
-.mariet .icon, .mariet .link #link-btn {
+.mariet .icon,
+.mariet .link #link-btn {
     background-color: #c7ddf8;
 }
 
-.hano { 
+.hano {
     grid-area: 3 / 1 / 5 / 3;
 }
 
-.hano .icon, .hano .link #link-btn{
+.hano .icon,
+.hano .link #link-btn {
     background-color: #ebdbff;
 }
 
@@ -28,7 +30,8 @@
     grid-area: 5 / 1 / 7 / 3;
 }
 
-.yaron .icon, .yaron .link #link-btn{
+.yaron .icon,
+.yaron .link #link-btn {
     background-color: #b5eed7;
 }
 
@@ -47,8 +50,8 @@
 }
 
 #pfp {
-    height: 200px;
-    width: 200px;
+    height: 350px;
+    width: 350px;
     border-radius: 50%;
 }
 
@@ -67,9 +70,11 @@ p {
     padding-right: 10px;
 }
 
-@media screen and (max-width: 600px) { 
+@media screen and (max-width: 600px) {
     #pfp {
         margin: 5px;
+        height: 150px;
+        width: 150px;
     }
 
     #link-btn {
@@ -78,3 +83,10 @@ p {
     }
 }
 
+/* .dirGrid-header::before{
+    content: "";
+    display: block;
+    width: 600px;
+    height: 5px;
+    background: #191970;
+} */

@@ -1,0 +1,24 @@
+#about-line::before{
+    content: "";
+    display: block;
+    width: 1300px;
+    height: 3px;
+    background: black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.about-title{
+    font-size: 32px;
+}
+
+@media screen and (max-width: 300px) {
+    #about-line{
+        width: 150px;
+    }
+}
+
+#about-summary{
+    margin-left: 20px;
+    margin-right: 20px;
+}
