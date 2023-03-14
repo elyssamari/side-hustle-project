@@ -67,8 +67,15 @@
 
 h1 {
     margin: 5px;
-    margin-top: 10%;
-    margin-bottom: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+@media screen and (max-width: 600px) {
+    h1{
+        margin-top: 0%;
+        margin-bottom: 2%;
+    }
 }
 
 p {
@@ -90,10 +97,44 @@ p {
     }
 }
 
-/* .dirGrid-header::before{
+#marietHeader-line::before{
     content: "";
     display: block;
-    width: 600px;
+    width: 350px;
     height: 5px;
-    background: #191970;
-} */
+    background-color: #c7ddf8;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#hanoHeader-line::before{
+    content: "";
+    display: block;
+    width: 350px;
+    height: 5px;
+    background-color: #ebdbff;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#yaronHeader-line::before{
+    content: "";
+    display: block;
+    width: 350px;
+    height: 5px;
+    background-color: #b5eed7;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    #marietHeader-line{
+        width: 150px;
+    }
+    #hanoHeader-line{
+        width: 150px;
+    }
+    #yaronHeader-line{
+        width: 150px;
+    }
+}
