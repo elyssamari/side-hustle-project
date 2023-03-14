@@ -2,17 +2,17 @@ import React from 'react';
 import { Button } from 'react-bootstrap';
 import "../../css/DirGrid.css";
 
-const DirGrid = () => {
+const DirGrid = (props) => {
+
     return (
         <div class="directory">
-            <div class="mariet" id="half">
+            <div ref={props.mariet} class="mariet" id="half">
                 <div class="icon" id="dir-item">
                     <img id="pfp" src="mhymariet.png" alt="mariet-pfp" />
                 </div>
                 <div class="link" id="dir-item">
                     <h1 class="dirGrid-header">mariet</h1>
-                    <p>Hi, I’m Mariet or Mari for short!</p>
-                    <p>☽(*◕ヮ◕*)☆</p>
+                    <p>Hi, I’m Mariet or Mari for short! ☽(*◕ヮ◕*)☆</p>
                     <p>I like to sing, play games, and doodle! 
                         Some of my goals is to hopefully get better at music and art in the future.
                     ♪(´▽｀)✧</p>
@@ -20,7 +20,7 @@ const DirGrid = () => {
                     <a href="/mariet"><Button id="link-btn">Click Here!</Button></a>
                 </div>
             </div>
-            <div class="hano" id="half">
+            <div ref={props.hano} class="hano" id="half">
                 <div class="link" id="dir-item">
                     <h1 class="dirGrid-header">hano</h1>
                     <p>Hi, I’m Hano!</p>
@@ -31,7 +31,7 @@ const DirGrid = () => {
                     <img id="pfp" src="mhyhano.png" alt="hano-pfp" />
                 </div>
             </div>
-            <div class="yaron" id="half">
+            <div ref={props.yaron} class="yaron" id="half">
                 <div class="icon" id="dir-item">
                     <img id="pfp" src="mhybola.png" alt="yaron-pfp" />
                 </div>
