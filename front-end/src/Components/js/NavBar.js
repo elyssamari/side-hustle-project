@@ -26,6 +26,7 @@ const NavBar = () => {
                     <Container fluid>
                         <Navbar.Brand href="/" className="navbar-logo">mhypals</Navbar.Brand> {/* need to decide if the brand will redirect to home page */}
                         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`}>
+                            <img src="icons8-menu-32.png" alt=""/>
                             <Navbar.Offcanvas placement="end" id={`offcanvasNavbar-expand-${expand}`} aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
                                 style={{ backgroundColor: navColor }}>
                                 <Offcanvas.Header closeButton>
