@@ -8,7 +8,7 @@ const DirGrid = (props) => {
         <div class="directory">
             <div ref={props.mariet} class="mariet" id="half">
                 <div class="icon" id="dir-item">
-                    <img id="pfp" src="mhymariet.png" alt="mariet-pfp" />
+                    <img id="pfp" src={process.env.PUBLIC_URL + "/mhymariet.png"} alt="mariet-pfp" />
                 </div>
                 <div class="link" id="dir-item">
                     <h1 class="dirGrid-header">mariet</h1>
@@ -28,12 +28,12 @@ const DirGrid = (props) => {
                     <a href="/hano"><Button id="link-btn">Click Here!</Button></a>
                 </div>
                 <div class="icon" id="dir-item">
-                    <img id="pfp" src="mhyhano.png" alt="hano-pfp" />
+                    <img id="pfp" src={process.env.PUBLIC_URL + "/mhyhano.png"} alt="hano-pfp" />
                 </div>
             </div>
             <div ref={props.yaron} class="yaron" id="half">
                 <div class="icon" id="dir-item">
-                    <img id="pfp" src="mhybola.png" alt="yaron-pfp" />
+                    <img id="pfp" src={process.env.PUBLIC_URL + "/mhybola.png"} alt="yaron-pfp" />
                 </div>
                 <div class="link" id="dir-item">
                     <h1 class="dirGrid-header">yaron</h1>
