@@ -55,7 +55,8 @@ const NavBar = () => {
                         </Navbar.Toggle>
                     </Container>
                 </Navbar>
-            ))}
+    ))
+}
         </>
 
     )
