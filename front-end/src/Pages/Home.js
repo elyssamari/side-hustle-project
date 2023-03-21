@@ -20,7 +20,7 @@ const Home = () => {
         yaron={ yaron }
       />
       <Container className="text-center justify-content-md-center" >
-        <img className="banner-image" src="bearcrew3.png" alt="homebanner" height="674" width="1360"></img>
+        <img className="banner-image" src={process.env.PUBLIC_URL + "/bearcrew3.png"} alt="homebanner" height="674" width="1360"></img>
       </Container>
       <HomeLayout />
       <DirGrid
