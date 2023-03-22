@@ -1,14 +1,14 @@
-.subnav-position{
+.subnav-position {
     top: 56px;
 }
 
-.responsive{
+.responsive {
     margin-right: 5px;
     margin-left: 5px;
 }
 
-@media screen and (max-width: 200px){
-    .subnav{
+@media screen and (max-width: 200px) {
+    .subnav {
         width: 100%
     }
 }
