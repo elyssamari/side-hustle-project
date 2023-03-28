@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/side-hustle-project/static/css/main.5ad88d1a.css",
-    "main.js": "/side-hustle-project/static/js/main.1b887ab3.js",
+    "main.js": "/side-hustle-project/static/js/main.a09ad787.js",
     "index.html": "/side-hustle-project/index.html",
     "main.5ad88d1a.css.map": "/side-hustle-project/static/css/main.5ad88d1a.css.map",
-    "main.1b887ab3.js.map": "/side-hustle-project/static/js/main.1b887ab3.js.map"
+    "main.a09ad787.js.map": "/side-hustle-project/static/js/main.a09ad787.js.map"
   },
   "entrypoints": [
     "static/css/main.5ad88d1a.css",
-    "static/js/main.1b887ab3.js"
+    "static/js/main.a09ad787.js"
   ]
 }
