@@ -1,6 +1,7 @@
 import "../css/NavBar.css";
 import React, { useState, useEffect } from "react";
 import { Nav, Navbar, Offcanvas, Container, OffcanvasBody } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
 
@@ -23,10 +24,10 @@ const NavBar = () => {
             {[false].map((expand) => (
                 <Navbar key={expand} sticky="top" expand={expand}
                     style={{ backgroundColor: navColor }} >
-                    <Container fluid>
-                        <Navbar.Brand href="/" className="navbar-logo">mhypals</Navbar.Brand> {/* need to decide if the brand will redirect to home page */}
+                        <Container fluid>
+                        <Navbar.Brand as={ Link } to="/" className="navbar-logo">mhypals</Navbar.Brand> {/* need to decide if the brand will redirect to home page */}
                         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`}>
-                            <img src="icons8-menu-32.png" alt=""/>
+                            <img src={process.env.PUBLIC_URL + "/icons8-menu-32.png"} alt=""/>
                             <Navbar.Offcanvas placement="end" id={`offcanvasNavbar-expand-${expand}`} aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
                                 style={{ backgroundColor: navColor }}>
                                 <Offcanvas.Header closeButton>
@@ -34,16 +35,16 @@ const NavBar = () => {
                                 </Offcanvas.Header>
                                 <OffcanvasBody>
                                     <Nav className="ms-auto my-2 my-lg-0 nav-responsive">
-                                        <Nav.Link id="item" href="/">
+                                        <Nav.Link id="item" as={ Link } to="/" >
                                             Home
                                         </Nav.Link>
-                                        <Nav.Link id="item" href="/mariet">
+                                        <Nav.Link id="item" as={ Link } to="/mariet">
                                             Mariet
                                         </Nav.Link>
-                                        <Nav.Link id="item" href="/hano">
+                                        <Nav.Link id="item" as={ Link } to="/hano">
                                             Hano
                                         </Nav.Link>
-                                        <Nav.Link id="item" href="/yaron">
+                                        <Nav.Link id="item" as={ Link } to="/yaron">
                                             Yaron
                                         </Nav.Link>
                                         <Nav.Link id="item" href="/process">
