@@ -11,9 +11,9 @@ import Process from './Pages/Process';
 function App() {
   return (
     <div className="App">
-    <BrowserRouter basename='/side-hustle-project'>
     <NavBar />
-      <Routes>
+    <BrowserRouter >
+      <Routes basename='/side-hustle-project'>
         <Route path="/" element={<Home />} />
         <Route path="/mariet" element={<Mariet />} />
         <Route path="/hano" element={<Hano />} />
