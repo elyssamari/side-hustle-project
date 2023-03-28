@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import "../../css/DirGrid.css";
 
 const DirGrid = (props) => {
@@ -19,7 +20,7 @@ const DirGrid = (props) => {
                         Some of my goals is to hopefully get better at music and art in the future.
                     </p>
                     <p>Please check out my website below!</p>
-                    <a href="/mariet"><Button id="link-btn">Click Here!</Button></a>
+                    <Link to="/mariet"><Button id="link-btn">Click Here!</Button></Link>
                 </div>
             </div>
             <div ref={props.hano} class="hano" id="half">
@@ -28,7 +29,7 @@ const DirGrid = (props) => {
                     <h1 class="dirGrid-header">hano</h1>
                     <p>Hi, I’m Hano!</p>
                     <p>I like cute things and doodling bunnies :)</p>
-                    <a href="/hano"><Button id="link-btn">Click Here!</Button></a>
+                    <Link to="/hano"><Button id="link-btn">Click Here!</Button></Link>
                 </div>
                 <div class="icon" id="dir-item">
                     <img id="pfp" src={process.env.PUBLIC_URL + "/mhyhano.png"} alt="hano-pfp" />
@@ -45,7 +46,7 @@ const DirGrid = (props) => {
                     <p>I like to tippity tap tap with games and coding. ٩(◕‿◕｡)۶ 
                         at this rate im gonna develop carpal tunnel</p>
                     <p>also gacha addict (its not gambling i swear)</p>
-                    <a href="/yaron"><Button id="link-btn">Click Here!</Button></a>
+                    <Link to="/yaron"><Button id="link-btn">Click Here!</Button></Link>
                 </div>
             </div>
         </div>
